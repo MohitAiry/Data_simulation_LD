@@ -1,0 +1,27 @@
+# Ignore large datasets and models
+VC_Dataset/
+Original_datasets/
+Original_datasets_16k/
+sim_dataset/
+sim_dataset_multilingual/
+sage_simulated_dataset/
+sage_simulated_features/
+sim_dataset_family_aware/
+FreeVC/
+augmentations/
+
+# Ignore massive file formats
+*.wav
+*.rttm
+*.zip
+*.tgz
+*.tar.gz
+*.whl
+
+# Ignore generated logs
+*.log
+
+# Ignore python caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
